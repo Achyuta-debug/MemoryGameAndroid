@@ -39,4 +39,9 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
         intent.putExtra("age", Integer.valueOf(ageBox.getText().toString()));
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }

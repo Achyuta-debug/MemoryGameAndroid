@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MemoryGame</string>
+    <string name="menu_header">Choose Difficulty</string>
+    <string name="menu_option_2X2">Easy (2X2, 30sec)</string>
+    <string name="menu_option_4X4">Medium (4X4, 45sec)</string>
+    <string name="menu_option_5X5">Hard (5X5, 60sec)</string>
+    <string name="seconds_left">Time left :</string>
+    <string name="name_box">Your Name</string>
+    <string name="age_box">Your Age</string>
+    <string name="logIn_text">Memory Game</string>
+    <string name="logIn_button">Enter Game</string>
+    <string name="name_container" />
+    <string name="active_timer" />
+</resources>

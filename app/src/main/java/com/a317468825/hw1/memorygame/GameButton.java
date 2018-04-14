@@ -42,9 +42,9 @@ public class GameButton extends AppCompatButton {
         if (size == 4)
             this.size = 170;
         else if (size == 16)
-            this.size = 110;
+            this.size = 90;
         else
-            this.size = 100;
+            this.size = 70;
 
         params.width = (int) getResources().getDisplayMetrics().density * this.size;
         params.height = (int) getResources().getDisplayMetrics().density * this.size;

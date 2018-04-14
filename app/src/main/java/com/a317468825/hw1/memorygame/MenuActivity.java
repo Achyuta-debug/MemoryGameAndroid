@@ -65,4 +65,9 @@ public class MenuActivity extends AppCompatActivity {
         intent.putExtra("age", age);
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
+    }
 }
